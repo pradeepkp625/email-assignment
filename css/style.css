@@ -1,0 +1,124 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0 !important;
+}
+.content{
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: -2px 3px 15px gray;
+}
+.container{
+    background-color: white;
+    padding: 0 20px;
+}
+.header{
+    height: 60px;
+    padding:30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+}
+.header p:nth-child(2){
+    color: #00556f;
+}
+.site__logo .logo{
+    background-color: black;
+    margin: 0 !important;
+}
+.site__logo a{
+    text-decoration: none;
+    color: white;
+}
+.brandx h1{
+    color: white;
+    background-color:#008fc3;
+    margin: 0%;
+    padding: 30px 20px 30px 20px;
+}
+@media(max-width:700px){
+    .content{
+        width: 320px;
+        box-shadow: none;   
+    }
+    .brandx h1{
+        margin: 0;
+    }
+    .container{
+        margin: 0;
+    }
+}
+.copia{
+    display: flex;
+}
+.copia p{
+    width: 50%;
+}
+.copia img{
+    object-fit: contain;
+    width: 50%;
+}
+.list{
+    width: 50%;
+    list-style: none;
+    padding: 0;
+}
+.list button{
+    color: white;
+    background-color: #cad400;
+    border: 2px solid #cad400;
+    margin: 20px 0;
+    padding:7px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.list button:hover{
+    background-color: transparent;
+    color: black;
+}
+.gentile h4{
+    margin-top: 0;
+    color: #00556f;
+    padding-top: 20px;  
+}
+.heading{
+    color: #00556f;
+    font-size: 25px;
+    font-weight: 500;
+}
+.main{
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+.main a{
+    color: black;
+}
+footer div span{
+    font-weight: 600;
+}
+.bibliografia{
+    padding-bottom: 10px;
+}
+@media (max-width:700px){
+   .copia{
+       flex-flow: column wrap;
+   }
+   .copia p{
+       width: 100%;
+   }
+   .list{
+       width: 100%;
+   }
+   .copia img{
+       width: 100%;
+   }
+
+}
